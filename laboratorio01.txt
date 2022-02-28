@@ -1,0 +1,34 @@
+TG1 - Definição da Demanda de Desenvolvimento
+0. Resumo do projeto
+Para acessar o nosso canvas e conhecer um rápido resumo do projeto acesse https://prnt.sc/0AYPPHCyA_NP.
+
+1. O problema ou oportunidade percebida
+Durante grande parte da vida das pessoas, um dos principais fatores que desencadeiam o baixo rendimento nas atividades desenvolvidas é a dificuldade quanto a própria organização e gestão das tarefas no dia a dia. Portanto, enxergando uma grande oportunidade de melhoria para o aumento de performance e produtividade da vida dos usuários, desenvolveremos um aplicativo simples e prático para gestão das atividades, tornando esse processo mais leve e descomplicado.
+
+2. A razão ou justificativa para esta demanda
+O produto em questão visa garantir uma melhor organização das tarefas dos usuários de forma simples e interativa, ou seja, independentemente da idade ou afinidade com tecnologias, garantiremos que todas as funções serão claras o suficiente para tornar o aplicativo dinâmico e prover uma experiência única para o usuário. Dessa forma, buscaremos tornar o usuário mais produtivo, visto que todas as suas atividades e compromissos estarão sempre organizados de acordo com as suas prioridades e deadlines.
+
+3. A descrição sucinta do produto de software que será produzido
+O software desenvolvido contemplará um aplicativo mobile/web cujo foco é permitir que o usuário final se organize da melhor maneira possível. Sendo assim, desenvolveremos um aplicativo possibilitando ao usuário a criação de listas personalizadas de tarefas, incluindo um rótulo, deadline e priorização, que quando finalizadas, gerarão pontos ao usuário, os dCoins. Sendo assim, além de proporcionar uma melhor organização ao usuário, tornando o mais produtivo, manteremos o mesmo sempre motivado a concluir as suas tarefas através das recompensas que serão convertidas em infinitas customizações do aplicativo, tornando o software o mais agradável possível.
+
+4. Identifique os clientes, usuários e demais envolvidos/impactados com o produto
+O público-alvo do nosso produto são todas as pessoas que buscam gerenciar as suas tarefas do dia a dia com objetividade, priorizando aquelas com prazos mais curtos ou que necessitam ser realizadas com maior urgência. Além disso, os principais impactados serão os próprios usuários, pois através de um controle rígido de notificações disparadas pelo aplicativo, eles poderão acompanhar todo o progresso de suas atividades, mantendo-os sempre atentos ao estado da tarefa.
+	 
+5. Descreva, em linhas gerais, quais as principais etapas necessárias para construir este produto
+Comunicação: nessa etapa, iremos sentar-nos com o cliente para compreender o problema atual; propor uma solução através do desenvolvimento de um software; alinhar todas as regras e especificidades. Vale ressaltar que essa é uma das principais etapas do desenvolvimento, pois nela coletaremos as informações necessárias para a construção do produto.
+Planejamento: nessa parte, iremos desenvolver um mapa simplificado do desafio, esse que servirá como um guia rápido para relembrarmos o motivo pelo qual o produto está sendo desenvolvido.
+Modelagem: nesse momento, atuaremos com mais criticidade na arquitetura do produto, pois precisaremos ter todos os requisitos e objetivos mapeados, garantindo o desenvolvimento de um software que atenda as expectativas e resolva o problema do cliente.
+Construção: com a definição da modelagem do projeto, partiremos para a construção do código, ou seja, o produto em si. Vale ressaltar, que ao finalizar o desenvolvimento, realizamos testes exaustivos a fim de garantir a qualidade e performance do produto, visando uma melhor experiência para o usuário final.
+Entrega: com o software construído, iremos realizar a entrega do produto para o cliente. Além disso, realizaremos a tutoria dos usuários, assim como o acompanhamento para coleta de feedbacks a cerca do desenvolvimento, esses que poderão ser utilizados para futuras melhorias.
+
+6. Descreva quais recursos a equipe dispõe para este desenvolvimento
+De modo geral, acredito que a equipe dispõe de todos os recursos para o desenvolvimento do projeto: soft-skills, contamos com um time muito organizado, orientado a objetivos, facilitador e com alto nível de engajamento para resolução dos desafios; hard-skills, não somos um time de especialistas, entretanto, conseguimos unir os nossos conhecimentos a fim de solucionar o problema proposto, sempre pautando análises claras e baseadas em dados e fatos.  
+
+7. Identifique os principais critérios de qualidade para o produto
+O critério primário de qualidade para avaliação do produto será se ele conseguiu sanar a necessidade inicial dos clientes. Não obstante, teremos como critérios secundários a simplicidade, praticidade e intuitividade da aplicação, essa que passará por diversos testes a fim de garantir e certificar a sua qualidade.
+
+8. Avalie os riscos
+Após diversas discussões a cerca do objetivo do projeto, o time de desenvolvedores chegou à conclusão que o maior risco será desviar do objetivo inicial do produto: desenvolver um aplicativo inclusivo, capaz de contribuir para a gestão de tarefas do dia a dia, de forma simplificada e objetiva. Como justificativa, por mais que pareça um software simples, trata-se de um produto extremamente abrangente e que deverá servir uma grande variedade de características dos usuários, esses que por sua vez possuem as suas necessidades e especificidades relacionadas a própria rotina. Por isso, iremos construir um perfil genérico para utilização do aplicativo, esse que poderá ser modificado ao longo do cumprimento das atividades.	
+
+9. Observações
+Todo material abordado nessa página será entregue na plataforma Moodle no formato PDF, além do endereço para acessar o GitHub do projeto.
