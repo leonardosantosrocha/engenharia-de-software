@@ -31,5 +31,5 @@ O critério primário de qualidade para avaliação do produto será se ele cons
 9.0. Avalie os riscos
 Após diversas discussões a cerca do objetivo do projeto, o time de desenvolvedores chegou à conclusão que o maior risco será desviar do objetivo inicial do produto: desenvolver um aplicativo inclusivo, capaz de contribuir para a gestão de tarefas do dia a dia, de forma simplificada e objetiva. Como justificativa, por mais que pareça um software simples, trata-se de um produto extremamente abrangente e que deverá servir uma grande variedade de características dos usuários, esses que por sua vez possuem as suas necessidades e especificidades relacionadas a própria rotina. Por isso, iremos construir um perfil genérico para utilização do aplicativo, esse que poderá ser modificado ao longo do cumprimento das atividades.	
 
-10.0 Observações
+10.0. Observações
 Todo material abordado nessa página será entregue na plataforma Moodle no formato PDF, além do endereço para acessar o GitHub do projeto.
