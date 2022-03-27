@@ -1,0 +1,43 @@
+TG2 - Levantamento de Requisitos
+
+1.0. Nome: Criação de lembretes.
+1.1. Descrição: Criação de novos lembretes (notas, tarefas e outros) para que o usuário consiga organizar e acompanhar o que deve ser desenvolvido.
+1.2. Classificação: RF (Requisito Funcional).
+1.3. Dependências: Caso o usuário queira acessar as tarefas em outro dispositivo, deverá realizar o login antes de adicionar novos lembretes, para que esses sejam atrelados ao seu perfil. Caso contrário, poderá utilizar o perfil de convidado.
+1.4. Esforço: Médio.
+1.5. Relevância: Alta.
+1.6. Risco: Baixo.
+
+2.0. Requisito: Sistema de login.
+2.1. Descrição: Desenvolvimento do sistema de login do usuário, para que consiga salvar as tarefas adicionadas no seu perfil.
+2.2. Classificação: RF (Requisito Funcional).
+2.3. Dependências: O usuário deverá fornecer os dados para criação da conta (nome, sobrenome, e-mail, senha e outros).
+2.4. Esforço: Baixo.
+2.5. Relevância: Alta.
+2.6. Risco: Baixo.
+
+3.0. Requisito: Atualização de lembretes.
+3.1. Descrição: Atualização de lembretes já existentes para que o usuário consiga atualizar o status da tarefa sem ter que criá-la novamente.
+3.2. Classificação: RF (Requisito Funcional).
+3.3 Dependências: Uma tarefa deverá ser previamente cadastrada para que o usuário possa realizar atualizações. Além disso, caso o usuário queira acessar as tarefas em outro dispositivo, deverá realizar o login antes de adicionar novos lembretes, para que esses sejam atrelados ao seu perfil. Caso contrário, poderá utilizar o perfil de convidado.
+3.4. Esforço: Médio.
+3.5. Relevância: Alta.
+3.6. Risco: Baixo.
+
+4.0. Requisito: Navegabilidade.
+4.1. Descrição: Todos os componentes do aplicativo deverão seguir um fluxo lógico e de fácil acesso para o usuário, a fim de permitir uma maior e melhor navegabilidade.
+4.2. Classificação: RNF (Requisito Não-Funcional).
+4.3. Dependências: Criação dos componentes core do projeto, como por exemplo: área de login, todas as informações do usuário; área de tarefas, todas as atividades cadastradas pelo usuário; demais elementos
+4.4. Esforço: Médio.
+4.5. Relevância: Alta.
+4.6. Risco: Médio.
+
+5.0. Requisito: Verificação de login em duas etapas.
+5.1. Descrição: Ao realizar a tentativa de login em um dispositivo desconhecido, ou seja, nunca utilizado anteriormente, o sistema exigirá que o usuário forneça o código de autenticação enviado para o seu e-mail ou celular cadastrado.
+5.2. Classificação: RNF (Requisito Não-Funcional).
+5.3. Dependências: A verificação em duas etapas só será realizada caso o usuário esteja utilizando o sistema de login, logo não aplicará para o perfil convidado.
+5.4. Esforço: Médio.
+5.5. Relevância: Média-Alta.
+5.6. Risco: Médio.
+
+6.0. Observações: Todo material abordado nessa página será entregue na plataforma Moodle no formato PDF.
