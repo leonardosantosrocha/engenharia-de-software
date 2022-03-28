@@ -1,43 +1,75 @@
 TG2 - Levantamento de Requisitos
 
-1.0. Nome: Criação de lembretes.
-1.1. Descrição: Criação de novos lembretes (notas, tarefas e outros) para que o usuário consiga organizar e acompanhar o que deve ser desenvolvido.
+1.0. Requisito: Sistema de login.
+1.1. Descrição: Desenvolvimento de um sistema de autenticação do usuário, para que ele possa utilizar a sua conta online.
 1.2. Classificação: RF (Requisito Funcional).
-1.3. Dependências: Caso o usuário queira acessar as tarefas em outro dispositivo, deverá realizar o login antes de adicionar novos lembretes, para que esses sejam atrelados ao seu perfil. Caso contrário, poderá utilizar o perfil de convidado.
+1.3. Dependências: O usuário deverá fornecer os dados (nome, sobrenome, e-mail, senha e outros) para o cadastramento da conta.
 1.4. Esforço: Médio.
-1.5. Relevância: Alta.
-1.6. Risco: Baixo.
+1.5. Relevância: Alta, devido a segurança das informações do usuário (LGDP).
+1.6. Risco: Alto, devido a segurança das informações do usuário (LGDP).
 
-2.0. Requisito: Atualização de lembretes.
-2.1. Descrição: Atualização de lembretes já existentes para que o usuário consiga atualizar o status da tarefa sem ter que criá-la novamente.
-2.2. Classificação: RF (Requisito Funcional).
-2.3. Dependências: Uma tarefa deverá ser previamente cadastrada para que o usuário possa realizar atualizações. Além disso, caso o usuário queira acessar as tarefas em outro dispositivo, deverá realizar o login antes de adicionar novos lembretes, para que esses sejam atrelados ao seu perfil. Caso contrário, poderá utilizar o perfil de convidado.
+2.0. Requisito: Verificação de login em duas etapas.
+2.1. Descrição: Ao realizar a tentativa de login em um dispositivo desconhecido, ou seja, nunca utilizado anteriormente, o sistema exigirá que o usuário forneça o código de autenticação enviado para o seu e-mail ou celular cadastrado.
+2.2. Classificação: RNF (Requisito Não-Funcional).
+2.3. Dependências: A verificação em duas etapas só será realizada caso o usuário esteja utilizando o sistema de login, logo não aplicará para o perfil convidado.
 2.4. Esforço: Médio.
-2.5. Relevância: Alta.
-2.6. Risco: Baixo.
+2.5. Relevância: Alta, devido a segurança das informações do usuário (LGDP).
+2.6. Risco: Alto, devido a segurança das informações do usuário (LGDP).
 
-3.0. Requisito: Sistema de login.
-3.1. Descrição: Desenvolvimento do sistema de login do usuário, para que consiga salvar as tarefas adicionadas no seu perfil.
-3.2. Classificação: RF (Requisito Funcional).
-3.3. Dependências: O usuário deverá fornecer os dados para criação da conta (nome, sobrenome, e-mail, senha e outros).
-3.4. Esforço: Baixo.
-3.5. Relevância: Alta.
-3.6. Risco: Baixo.
+3.0. Requisito: Proteção contra invasões.
+3.1. Descrição: Ao realizar mais de três tentativas de login sem sucesso, a conta deverá ser bloqueada, sendo desbloqueada somente após a confirmação por e-mail ou celular.
+3.2. Classificação: RNF (Requisito Não-Funcional).
+3.3. Dependências: O usuário precisará cadastrar obrigatoriamente ao menos uma forma de recuperar a conta: e-mail ou telefone celular.
+3.4. Esforço: Médio.
+3.5. Relevância: Alta, devido a segurança das informações do usuário (LGDP).
+3.6. Risco: Alto, devido a segurança das informações do usuário (LGDP).
 
-4.0. Requisito: Navegabilidade.
-4.1. Descrição: Todos os componentes do aplicativo deverão seguir um fluxo lógico e de fácil acesso para o usuário, a fim de permitir uma maior e melhor navegabilidade.
-4.2. Classificação: RNF (Requisito Não-Funcional).
-4.3. Dependências: Criação dos componentes core do projeto, como por exemplo: área de login, todas as informações do usuário; área de tarefas, todas as atividades cadastradas pelo usuário; demais elementos
+4.0. Requisito: Criação de tarefas.
+4.1. Descrição: Criação de novas tarefas.
+4.2. Classificação: RF (Requisito Funcional).
+4.3. Dependências: Acesso online: para acompanhar as tarefas em múltiplos dispositivos, o usuário deverá realizar o login; Acesso offline: para acompanhar as tarefas em um único dispositivo, o usuário poderá acessar como convidado.  
 4.4. Esforço: Médio.
-4.5. Relevância: Alta.
+4.5. Relevância: Alta, pois faz parte do objetivo principal do projeto.
 4.6. Risco: Médio.
 
-5.0. Requisito: Verificação de login em duas etapas.
-5.1. Descrição: Ao realizar a tentativa de login em um dispositivo desconhecido, ou seja, nunca utilizado anteriormente, o sistema exigirá que o usuário forneça o código de autenticação enviado para o seu e-mail ou celular cadastrado.
-5.2. Classificação: RNF (Requisito Não-Funcional).
-5.3. Dependências: A verificação em duas etapas só será realizada caso o usuário esteja utilizando o sistema de login, logo não aplicará para o perfil convidado.
+5.0. Requisito: Atualização de tarefas.
+5.1. Descrição: Atualização de tarefas já existentes.
+5.2. Classificação: RF (Requisito Funcional).
+5.3. Dependências: Tarefa previamente cadastrada para que o usuário possa realizar atualizações; Acesso online: para acompanhar as tarefas em múltiplos dispositivos, o usuário deverá realizar o login; Acesso offline: para acompanhar as tarefas em um único dispositivo, o usuário poderá acessar como convidado.  
 5.4. Esforço: Médio.
-5.5. Relevância: Média-Alta.
+5.5. Relevância: Alta, pois faz parte do objetivo principal do projeto.
 5.6. Risco: Médio.
 
-6.0. Observações: Todo material abordado nessa página será entregue na plataforma Moodle no formato PDF.
+6.0. Requisito: Exclusão de tarefas.
+6.1. Descrição: Exclusão de tarefas já existentes.
+6.2. Classificação: RF (Requisito Funcional).
+6.3. Dependências: Tarefa previamente cadastrada para que o usuário possa realizar a exclusão; Acesso online: para acompanhar as tarefas em múltiplos dispositivos, o usuário deverá realizar o login; Acesso offline: para acompanhar as tarefas em um único dispositivo, o usuário poderá acessar como convidado.  
+6.4. Esforço: Médio.
+6.5. Relevância: Alta, pois faz parte do objetivo principal do projeto.
+6.6. Risco: Médio.
+
+7.0. Requisito: Definição de lembretes.
+7.1. Descrição: Desenvolvimento de um sistema de notificações para alertar o usuário sobre tarefas que estão próximas do vencimento.
+7.2. Classificação: RF (Requisito Funcional).
+7.3. Dependências: Tarefa previamente cadastrada com a definição do dia de entrega; Acesso online: para acompanhar as tarefas em múltiplos dispositivos, o usuário deverá realizar o login; Acesso offline: para acompanhar as tarefas em um único dispositivo, o usuário poderá acessar como convidado.
+7.4. Esforço: Médio.
+7.5. Relevância: Alta, pois servirá como um alerta para o usuário.
+7.6. Risco: Alto, pois quando mal calibrado pode enviar falsas notificações para o usuário.
+
+8.0. Requisito: Navegabilidade.
+8.1. Descrição: Todos os componentes do aplicativo deverão seguir um fluxo lógico e de fácil acesso para o usuário, a fim de permitir uma maior e melhor navegabilidade.
+8.2. Classificação: RNF (Requisito Não-Funcional).
+8.3. Dependências: Criação dos componentes core do projeto, como por exemplo: área de login, todas as informações do usuário; área de tarefas, todas as atividades cadastradas pelo usuário; demais elementos.
+8.4. Esforço: Médio.
+8.5. Relevância: Média, pois quando mal desenhada pode afetar a acessibilidade do usuário.
+8.6. Risco: Médio.
+
+9.0. Requisito: Portabilidade da aplicação.
+9.1. Descrição: Todas as funcionalidades criadas no aplicativo web deverão ser refletidas no aplicativo mobile, ou seja, não haverá disparidades entre as plataformas.
+9.2. Classificação: RNF (Requisito Não-Funcional).
+9.3. Dependências: 
+9.4. Esforço: Médio.
+9.5. Relevância: Alta, pois o aplicativo deverá ser acessível em todas as plataformas.
+9.6. Risco: Médio.
+
+Todo material abordado nessa página será entregue na plataforma Moodle no formato PDF, além do endereço para acessar o GitHub do projeto.
