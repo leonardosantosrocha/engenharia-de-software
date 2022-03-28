@@ -8,19 +8,19 @@ TG2 - Levantamento de Requisitos
 1.5. Relevância: Alta.
 1.6. Risco: Baixo.
 
-2.0. Requisito: Sistema de login.
-2.1. Descrição: Desenvolvimento do sistema de login do usuário, para que consiga salvar as tarefas adicionadas no seu perfil.
+2.0. Requisito: Atualização de lembretes.
+2.1. Descrição: Atualização de lembretes já existentes para que o usuário consiga atualizar o status da tarefa sem ter que criá-la novamente.
 2.2. Classificação: RF (Requisito Funcional).
-2.3. Dependências: O usuário deverá fornecer os dados para criação da conta (nome, sobrenome, e-mail, senha e outros).
-2.4. Esforço: Baixo.
+2.3. Dependências: Uma tarefa deverá ser previamente cadastrada para que o usuário possa realizar atualizações. Além disso, caso o usuário queira acessar as tarefas em outro dispositivo, deverá realizar o login antes de adicionar novos lembretes, para que esses sejam atrelados ao seu perfil. Caso contrário, poderá utilizar o perfil de convidado.
+2.4. Esforço: Médio.
 2.5. Relevância: Alta.
 2.6. Risco: Baixo.
 
-3.0. Requisito: Atualização de lembretes.
-3.1. Descrição: Atualização de lembretes já existentes para que o usuário consiga atualizar o status da tarefa sem ter que criá-la novamente.
+3.0. Requisito: Sistema de login.
+3.1. Descrição: Desenvolvimento do sistema de login do usuário, para que consiga salvar as tarefas adicionadas no seu perfil.
 3.2. Classificação: RF (Requisito Funcional).
-3.3 Dependências: Uma tarefa deverá ser previamente cadastrada para que o usuário possa realizar atualizações. Além disso, caso o usuário queira acessar as tarefas em outro dispositivo, deverá realizar o login antes de adicionar novos lembretes, para que esses sejam atrelados ao seu perfil. Caso contrário, poderá utilizar o perfil de convidado.
-3.4. Esforço: Médio.
+3.3. Dependências: O usuário deverá fornecer os dados para criação da conta (nome, sobrenome, e-mail, senha e outros).
+3.4. Esforço: Baixo.
 3.5. Relevância: Alta.
 3.6. Risco: Baixo.
 
