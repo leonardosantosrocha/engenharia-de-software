@@ -67,7 +67,7 @@ TG2 - Levantamento de Requisitos
 9.0. Requisito: Portabilidade da aplicação.
 9.1. Descrição: Todas as funcionalidades criadas no aplicativo web deverão ser refletidas no aplicativo mobile, ou seja, não haverá disparidades entre as plataformas.
 9.2. Classificação: RNF (Requisito Não-Funcional).
-9.3. Dependências: 
+9.3. Dependências: Todas as plataformas devem refletir as mesmas funcionalidades.
 9.4. Esforço: Médio.
 9.5. Relevância: Alta, pois o aplicativo deverá ser acessível em todas as plataformas.
 9.6. Risco: Médio.
