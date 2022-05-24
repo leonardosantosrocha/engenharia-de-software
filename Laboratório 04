@@ -1,7 +1,7 @@
 TG4 - Caso de Teste de Caixa Preta
 
 1.0. Resumo do projeto
-Desenvolvimento do teste caixa preta para o programa calculaFatura.
+Desenvolvimento do teste caixa preta para o programa calculaFatura em Java.
 
 |   mesMedicao   |   multiplicadorTarifa    |  mtInValorMedicao  |  saidaEsperada |
 | :------------- | :----------------------- | :----------------- | :--------------|
